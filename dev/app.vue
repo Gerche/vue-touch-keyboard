@@ -11,6 +11,10 @@
 				input#text.input(type="text", placeholder="Text input", @focus="show", data-layout="normal")
 
 			fieldset
+				legend azerty layout
+				input.input(type="text", placeholder="Text input", @focus="show", data-layout="azerty")
+
+			fieldset
 				legend Compact layout
 				input.input(type="text", placeholder="Text input", @focus="show", data-layout="compact", maxlength="5")
 
