@@ -323,7 +323,7 @@
 				box-shadow: 0px 2px 2px rgba(0, 0, 0, .6);
 				border-radius: $radius;
 
-				font-size: 1.25em;
+				font-size: 1.5em;
 				text-align: center;
 				white-space: nowrap;
 				user-select: none;
