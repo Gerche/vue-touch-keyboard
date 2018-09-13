@@ -262,7 +262,7 @@
 				}
 
 				// trigger 'input' Event
-				this.input.dispatchEvent(new Event('input', { bubbles: true }));
+				this.input.dispatchEvent(new Event("input", { bubbles: true }));
 
 			},
 			
@@ -339,6 +339,12 @@
 			
 				&.half {
 					flex: $width / 2;
+				}
+
+				&.green {
+					color: #fff;
+					background-color: #22bb22;
+					border-color: #656565;
 				}
 
 				&.control {
