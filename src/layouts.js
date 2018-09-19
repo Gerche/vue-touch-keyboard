@@ -15,14 +15,14 @@ module.exports = {
 		},
 
 		default: [
-			"` 1 2 3 4 5 6 7 8 9 0 - = {backspace}",
+			"@ 1 2 3 4 5 6 7 8 9 0 - = {backspace}",
 			"{tab} q w e r t y u i o p [ ] \\",
 			"{caps} a s d f g h j k l ; ' {enter}",
 			"{shiftl} z x c v b n m , . / {shiftr}",
 			"{next} {space} {accept}"
 		],
 		shifted: [
-			"~ ! @ # $ % ^ & * ( ) _ + {backspace}",
+			"' ! @ # $ % ^ & * ( ) _ + {backspace}",
 			"{tab} Q W E R T Y U I O P { } |",
 			"{caps} A S D F G H J K L : \" {enter}",
 			"{shiftl} Z X C V B N M < > ? {shiftr}",
@@ -30,7 +30,45 @@ module.exports = {
 		],
 		
 		capsed: [
-			"` 1 2 3 4 5 6 7 8 9 0 - = {backspace}",
+			"@ 1 2 3 4 5 6 7 8 9 0 - = {backspace}",
+			"{tab} Q W E R T Y U I O P [ ] \\",
+			"{caps} A S D F G H J K L ; ' {enter}",
+			"{shiftl} Z X C V B N M , . / {shiftr}", 
+			"{next} {space} {accept}"
+		]		
+	},
+
+	"email": {
+
+		_meta: {
+			"tab": { key: "\t", text: "Tab", width: 60, classes: "control"},
+			"shiftl": { keySet: "shifted", text: "Shift", width: 100, classes: "control"},
+			"shiftr": { keySet: "shifted", text: "Shift", width: 100, classes: "control"},
+			"caps": { keySet: "capsed", text: "Caps lock", width: 80, classes: "control"},
+			"space": { key: " ", text: "Space", width: 180},
+			"enter": { func: "accept", text: "Enter", width: 80, classes: "green"},
+			"backspace": { func: "backspace", classes: "control backspace", width: 65},
+			"accept": { func: "accept", text: "Close", classes: "control featured"},
+			"next": { func: "next", text: "Next", classes: "control featured"}
+		},
+
+		default: [
+			"@ 1 2 3 4 5 6 7 8 9 0 - = {backspace}",
+			"{tab} q w e r t y u i o p [ ] \\",
+			"{caps} a s d f g h j k l ; ' {enter}",
+			"{shiftl} z x c v b n m , . / {shiftr}",
+			"{next} @gmail.com @yahoo.com @hotmail.com {accept}"
+		],
+		shifted: [
+			"' ! @ # $ % ^ & * ( ) _ + {backspace}",
+			"{tab} Q W E R T Y U I O P { } |",
+			"{caps} A S D F G H J K L : \" {enter}",
+			"{shiftl} Z X C V B N M < > ? {shiftr}",
+			"{next} {space} {accept}"
+		],
+		
+		capsed: [
+			"@ 1 2 3 4 5 6 7 8 9 0 - = {backspace}",
 			"{tab} Q W E R T Y U I O P [ ] \\",
 			"{caps} A S D F G H J K L ; ' {enter}",
 			"{shiftl} Z X C V B N M , . / {shiftr}", 
