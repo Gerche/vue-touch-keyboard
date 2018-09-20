@@ -154,10 +154,10 @@ module.exports = {
 
 		_meta: {
 			"backspace": { func: "backspace", classes: "control"},
-			"enter": { func: "accept", text: "Enter", width: 88, classes: "green"},
+			"enter": { func: "accept", text: "Enter", width: 84, classes: "green"},
 			"accept": { func: "accept", text: "Minimize", classes: "control featured"},
 			"next": { func: "next", text: "Next", classes: "control featured"},
-			"zero": { key: "0", width: 135}
+			"zero": { key: "0", width: 128}
 		},
 
 		default: [
