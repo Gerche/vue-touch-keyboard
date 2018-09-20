@@ -10,7 +10,7 @@ module.exports = {
 			"space": { key: " ", text: "Space", width: 180},
 			"enter": { func: "accept", text: "Enter", width: 80, classes: "green"},
 			"backspace": { func: "backspace", classes: "control backspace", width: 65},
-			"accept": { func: "accept", text: "Close", classes: "control featured"},
+			"accept": { func: "accept", text: "Minimize", classes: "control featured"},
 			"next": { func: "next", text: "Next", classes: "control featured"}
 		},
 
@@ -48,7 +48,7 @@ module.exports = {
 			"space": { key: " ", text: "Space", width: 180},
 			"enter": { func: "accept", text: "Enter", width: 80, classes: "green"},
 			"backspace": { func: "backspace", classes: "control backspace", width: 65},
-			"accept": { func: "accept", text: "Close", classes: "control featured"},
+			"accept": { func: "accept", text: "Minimize", classes: "control featured"},
 			"next": { func: "next", text: "Next", classes: "control featured"}
 		},
 
@@ -86,7 +86,7 @@ module.exports = {
 			"space": { key: " ", text: "Space", width: 180},
 			"enter": { key: "\r\n", text: "Enter", width: 80, classes: "control"},
 			"backspace": { func: "backspace", classes: "control backspace", width: 65},
-			"accept": { func: "accept", text: "Close", classes: "control featured"},
+			"accept": { func: "accept", text: "Minimize", classes: "control featured"},
 			"next": { func: "next", text: "Next", classes: "control featured"}
 		},
 
@@ -123,7 +123,7 @@ module.exports = {
 			"numbers": { keySet: "numbers", text: "123", classes: "control"},
 			"space": { key: " ", text: "Space", width: 200},
 			"backspace": { func: "backspace", classes: "control"},
-			"accept": { func: "accept", text: "Close", classes: "control featured"},
+			"accept": { func: "accept", text: "Minimize", classes: "control featured"},
 			"next": { func: "next", text: "Next", classes: "featured"},
 			"zero": { key: "0", width: 130}
 		},
@@ -154,16 +154,17 @@ module.exports = {
 
 		_meta: {
 			"backspace": { func: "backspace", classes: "control"},
-			"accept": { func: "accept", text: "Close", classes: "control featured"},
+			"enter": { func: "accept", text: "Enter", width: 88, classes: "green"},
+			"accept": { func: "accept", text: "Minimize", classes: "control featured"},
 			"next": { func: "next", text: "Next", classes: "control featured"},
-			"zero": { key: "0", width: 130}
+			"zero": { key: "0", width: 135}
 		},
 
 		default: [
 			"1 2 3",
 			"4 5 6",
 			"7 8 9",
-			"_ - . {zero} {backspace} {next} {accept}"
+			"+ ( ) {zero} {backspace} {enter}"
 		]
 	}
 
