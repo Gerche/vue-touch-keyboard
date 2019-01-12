@@ -358,12 +358,6 @@
 					background-color: #337ab7;
 					border-color: #2e6da4;
 				}
-
-				&:hover {
-					color: #333;
-					background-color: #d6d6d6;
-					border-color: #adadad;
-				}
 				
 				&:active {
 					transform: scale(.98); // translateY(1px);
@@ -400,12 +394,6 @@
 						0 2px 0 #c9c9c9,
 						0 2px 3px #333;
 					text-shadow: 0px 1px 0px #777;
-				}
-
-				&:hover {
-					color: #aaa;
-					background-color: inherit;
-					border-color: inherit;
 				}
 
 				&:active {
