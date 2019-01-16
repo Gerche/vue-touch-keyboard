@@ -22,7 +22,7 @@ module.exports = {
 			"{next} {space} {accept}"
 		],
 		shifted: [
-			"' ! @ # $ % ^ & * ( ) _ + {backspace}",
+			"' é è @ à ç ^ ë * ( ) _ + {backspace}",
 			"{tab} Q W E R T Y U I O P { } |",
 			"{caps} A S D F G H J K L : \" {enter}",
 			"{shiftl} Z X C V B N M < > ? {shiftr}",
@@ -60,7 +60,7 @@ module.exports = {
 			"{next} @hotmail.fr @gmail.com @yahoo.fr {accept}"
 		],
 		shifted: [
-			"' ! @ # $ % ^ & * ( ) _ + {backspace}",
+			"' é è @ à ç ^ ë * ( ) _ + {backspace}",
 			"{tab} Q W E R T Y U I O P { } |",
 			"{caps} A S D F G H J K L : \" {enter}",
 			"{shiftl} Z X C V B N M < > ? {shiftr}",
