@@ -113,6 +113,43 @@ module.exports = {
 		]	
 	},
 
+	"email_azerty": {
+
+		_meta: {
+			"tab": { key: "\t", text: "Tab", width: 60, classes: "control"},
+			"shiftl": { keySet: "shifted", text: "Shift", width: 100, classes: "control"},
+			"shiftr": { keySet: "shifted", text: "Shift", width: 100, classes: "control"},
+			"caps": { keySet: "capsed", text: "Caps lock", width: 80, classes: "control"},
+			"space": { key: " ", text: "Space", width: 180},
+			"enter": { key: "\r\n", text: "Enter", width: 80, classes: "control"},
+			"backspace": { func: "backspace", classes: "control backspace", width: 65},
+			"accept": { func: "accept", text: "Minimize", classes: "control featured"},
+			"next": { func: "next", text: "Next", classes: "control featured"}
+		},
+
+		default: [
+			"' é è @ à ç ^ ë ! \" ( ) - {backspace}",
+			"{tab} a z e r t y u i o p ^ $",
+			"{caps} q s d f g h j k l m ù µ {enter}",
+			"{shiftl} w x c v b n , ; : = {shiftr}",
+			"{next} @hotmail.fr @gmail.com @yahoo.fr {accept}"
+		],
+		shifted: [
+			"³ 1 2 3 4 5 6 7 8 9 0 ° _ {backspace}",
+			"{tab} A Z E R T Y U I O P ¨ *",
+			"{caps} Q S D F G H J K L M % £ {enter}",
+			"{shiftl} W X C V B N ? . / + {shiftr}",
+			"{next} {space} {accept}"
+		],
+		capsed: [
+			"³ 1 2 3 4 5 6 7 8 9 0 ° _ {backspace}",
+			"{tab} A Z E R T Y U I O P ¨ *",
+			"{caps} Q S D F G H J K L M % £ {enter}",
+			"{shiftl} W X C V B N ? . / + {shiftr}",
+			"{next} {space} {accept}"
+		]	
+	},
+
 	"compact": {
 
 		_meta: {
