@@ -8,7 +8,7 @@
 
 			fieldset
 				legend Normal layout
-				input#text.input(type="text", placeholder="Text input", @focus="show", data-layout="email")
+				input#text.input(type="text", placeholder="Text input", @focus="show", data-layout="email_qwerty")
 
 			fieldset
 				legend azerty layout

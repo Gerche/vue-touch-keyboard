@@ -38,7 +38,7 @@ module.exports = {
 		]		
 	},
 
-	"email": {
+	"email_qwerty": {
 
 		_meta: {
 			"tab": { key: "\t", text: "Tab", width: 60, classes: "control"},
@@ -91,27 +91,26 @@ module.exports = {
 		},
 
 		default: [
-			"² & é \" ' ( § è ! ç à ) - {backspace}",
+			"' é è @ à ç ^ ë ! \" ( ) - {backspace}",
 			"{tab} a z e r t y u i o p ^ $",
 			"{caps} q s d f g h j k l m ù µ {enter}",
 			"{shiftl} w x c v b n , ; : = {shiftr}",
 			"{next} {space} {accept}"
 		],
 		shifted: [
-			"~ ! @ # $ % ^ & * ( ) _ + {backspace}",
-			"{tab} Q W E R T Y U I O P { } |",
-			"{caps} A S D F G H J K L : \" {enter}",
-			"{shiftl} Z X C V B N M < > ? {shiftr}",
+			"³ 1 2 3 4 5 6 7 8 9 0 ° _ {backspace}",
+			"{tab} A Z E R T Y U I O P ¨ *",
+			"{caps} Q S D F G H J K L M % £ {enter}",
+			"{shiftl} W X C V B N ? . / + {shiftr}",
 			"{next} {space} {accept}"
 		],
-		
 		capsed: [
-			"` 1 2 3 4 5 6 7 8 9 0 - = {backspace}",
-			"{tab} Q W E R T Y U I O P [ ] \\",
-			"{caps} A S D F G H J K L ; ' {enter}",
-			"{shiftl} Z X C V B N M , . / {shiftr}", 
+			"³ 1 2 3 4 5 6 7 8 9 0 ° _ {backspace}",
+			"{tab} A Z E R T Y U I O P ¨ *",
+			"{caps} Q S D F G H J K L M % £ {enter}",
+			"{shiftl} W X C V B N ? . / + {shiftr}",
 			"{next} {space} {accept}"
-		]		
+		]	
 	},
 
 	"compact": {
