@@ -57,7 +57,7 @@ module.exports = {
 			"{tab} q w e r t y u i o p [ ] \\",
 			"{caps} a s d f g h j k l ; ' {enter}",
 			"{shiftl} z x c v b n m , . / {shiftr}",
-			"{next} @hotmail.fr @gmail.com @yahoo.fr {accept}"
+			"{next} @hotmail.com @gmail.com @yahoo.com {accept}"
 		],
 		shifted: [
 			"' é è @ à ç ^ ë * ( ) _ + {backspace}",
